@@ -16,7 +16,7 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "Analysis"
-        file: stackoverflow_survey_analysis_plotly.ipynb
+        file: stackoverflow-2025-survey-analysis.ipynb
     right:
       - icon: github
         href: https://github.com/booleanhunter/should-we-build-redisvl-typescript

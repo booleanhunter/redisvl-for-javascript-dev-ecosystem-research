@@ -40,7 +40,7 @@ This project analyzes the **Stack Overflow 2025 Developer Survey** (49,191 respo
 ::: {.callout-note icon=true}
 ## 🎨 Interactive Analysis
 
-[**View Full Analysis →**](stackoverflow_survey_analysis_plotly.ipynb)
+[**View Full Analysis →**](stackoverflow-2025-survey-analysis.ipynb)
 
 Explore the complete analysis with interactive Plotly visualizations:
 
