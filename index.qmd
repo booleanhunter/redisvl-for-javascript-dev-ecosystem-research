@@ -1,7 +1,7 @@
 ---
 title: "Should We Build RedisVL for TypeScript?"
 subtitle: "A Data-Driven Market Research Analysis"
-author: "Stack Overflow 2025 Developer Survey Analysis"
+author: "Ashwin Hariharan (booleanhunter)"
 date: today
 format:
   html:
