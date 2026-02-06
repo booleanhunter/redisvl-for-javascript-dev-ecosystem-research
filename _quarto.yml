@@ -29,7 +29,7 @@ website:
 
 format:
   html:
-    theme: 
+    theme:
       light: cosmo
       dark: darkly
     css: styles.css
