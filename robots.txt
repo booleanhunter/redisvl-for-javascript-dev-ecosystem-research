@@ -1,1 +1,1 @@
-Sitemap: https://booleanhunter.github.io/should-we-build-redisvl-typescript/sitemap.xml
+Sitemap: https://booleanhunter.github.io/redisvl-for-javascript-dev-ecosystem-research/sitemap.xml
