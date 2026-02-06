@@ -40,10 +40,21 @@ This project analyzes the **Stack Overflow 2025 Developer Survey** (49,191 respo
 ::: {.callout-note icon=true}
 ## 🎨 Interactive Analysis
 
-[**View Full Analysis →**](stackoverflow-2025-survey-analysis.ipynb)
+**Two comprehensive analyses available:**
 
-Explore the complete analysis with interactive Plotly visualizations:
+1. [**TypeScript/JavaScript Market Analysis →**](stackoverflow-2025-survey-analysis.ipynb)
+   - Market size comparison (JS/TS vs Python vs Java)
+   - Database preferences and Redis adoption
+   - Node.js + Redis developer profiles
+   - AI/ML usage patterns
 
+2. [**Redis & AI Agents Deep Dive →**](redis-ai-agents-analysis.ipynb) ⭐ **NEW!**
+   - Redis adoption patterns and user segmentation
+   - AI agent usage and challenges
+   - Redis + AI technology stack analysis
+   - Insights on why developers use AI agents
+
+All visualizations are interactive:
 - 🖱️ **Hover** over charts to see detailed data points
 - 🔍 **Zoom and pan** to explore specific areas
 - 💾 **Download** charts as PNG images

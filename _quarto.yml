@@ -15,8 +15,10 @@ website:
     left:
       - text: "Home"
         file: index.qmd
-      - text: "Analysis"
+      - text: "TypeScript Analysis"
         file: stackoverflow-2025-survey-analysis.ipynb
+      - text: "Redis & AI Agents"
+        file: redis-ai-agents-analysis.ipynb
     right:
       - icon: github
         href: https://github.com/booleanhunter/should-we-build-redisvl-typescript
