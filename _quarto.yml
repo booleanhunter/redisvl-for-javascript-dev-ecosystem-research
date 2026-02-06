@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _docs
+
+website:
+  title: "Should We Build RedisVL for TypeScript?"
+  description: "Stack Overflow 2025 Developer Survey analysis examining market viability for TypeScript/JavaScript RedisVL client library"
+  site-url: "https://booleanhunter.github.io/should-we-build-redisvl-typescript/"
+  repo-url: "https://github.com/booleanhunter/should-we-build-redisvl-typescript"
+  repo-actions: [edit, issue]
+  
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Analysis"
+        file: stackoverflow_survey_analysis_plotly.ipynb
+    right:
+      - icon: github
+        href: https://github.com/booleanhunter/should-we-build-redisvl-typescript
+        
+  page-footer:
+    left: "Built with [Quarto](https://quarto.org/)"
+    right:
+      - icon: github
+        href: https://github.com/booleanhunter/should-we-build-redisvl-typescript
+
+format:
+  html:
+    theme: 
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: false
+    code-tools: true
+    code-copy: true
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 250px
+
+execute:
+  freeze: auto
+  cache: true
+

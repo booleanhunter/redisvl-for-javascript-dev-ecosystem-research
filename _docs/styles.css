@@ -1,0 +1,67 @@
+/* Custom styles for the documentation site */
+
+/* Improve callout boxes */
+.callout {
+  border-left-width: 5px;
+  border-radius: 5px;
+  margin: 1.5rem 0;
+}
+
+.callout-tip {
+  border-left-color: #28a745;
+}
+
+.callout-important {
+  border-left-color: #dc3545;
+}
+
+/* Better table styling */
+table {
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table thead {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+table th {
+  font-weight: 600;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Grid layout improvements */
+.grid {
+  margin: 1.5rem 0;
+}
+
+/* Code block improvements */
+pre {
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+/* Navbar improvements */
+.navbar-brand {
+  font-weight: 600;
+}
+
+/* Footer improvements */
+.page-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #dee2e6;
+}
+

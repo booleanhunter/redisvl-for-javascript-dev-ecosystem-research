@@ -1,0 +1,50 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_docs/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Optional: Download dataset from GitHub Release if needed
+      # - name: Download Dataset
+      #   run: |
+      #     mkdir -p survey-data
+      #     wget -O survey-data.zip https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2025.zip
+      #     unzip survey-data.zip -d survey-data/
+
+      # Optional: Setup Python and Quarto if you want to render in CI
+      # - name: Setup Python
+      #   uses: actions/setup-python@v5
+      #   with:
+      #     python-version: '3.11'
+      #
+      # - name: Install Dependencies
+      #   run: pip install -r requirements.txt
+      #
+      # - name: Setup Quarto
+      #   uses: quarto-dev/quarto-actions/setup@v2
+      #
+      # - name: Render Quarto Project
+      #   run: quarto render
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_docs
+          publish_branch: gh-pages
+

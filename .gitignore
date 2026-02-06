@@ -73,6 +73,15 @@ Thumbs.db
 # Survey data (large files - download separately)
 survey-data/
 
+# Quarto generated files
+# Note: _docs/ is committed so GitHub Pages can deploy it
+# _docs/
+/.quarto/
+_site/
+_freeze/
+
 # Generated reports (optional - uncomment if you don't want to commit these)
 # survey-data/redisvl_market_analysis_summary.txt
 
+
+**/*.quarto_ipynb

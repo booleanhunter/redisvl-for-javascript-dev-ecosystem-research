@@ -1,0 +1,148 @@
+---
+title: "Should We Build RedisVL for TypeScript?"
+subtitle: "A Data-Driven Market Research Analysis"
+author: "Stack Overflow 2025 Developer Survey Analysis"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+## 🎯 Executive Summary
+
+This project analyzes the **Stack Overflow 2025 Developer Survey** (49,191 responses) to determine if there's sufficient market demand for a **TypeScript/JavaScript version of RedisVL** (Redis Vector Library).
+
+### Key Findings
+
+::: {.callout-tip icon=true}
+## ✅ Strong Market Signal
+
+- **54.4%** of Node.js developers use AI tools daily (highest among all groups)
+- **54.0%** of TypeScript developers use AI daily
+- **JS/TS + Redis market is 1.5x larger** than Python + Redis market
+- **63.2%** of Node.js developers have favorable sentiment toward AI
+- **Redis ranks #6** in database usage among Node.js developers
+:::
+
+### Market Size Comparison
+
+| Developer Group | Total Developers | Daily AI Usage | Favorable Sentiment |
+|----------------|------------------|----------------|---------------------|
+| **Node.js**    | 11,544          | **54.4%** ⭐   | **63.2%** ⭐        |
+| **TypeScript** | 13,859          | **54.0%** ⭐   | 61.9%              |
+| **JavaScript** | 21,005          | 49.3%          | 59.7%              |
+| **Python**     | 18,466          | 46.9%          | 58.2%              |
+| **Java**       | 2,490           | 41.1%          | 53.7%              |
+
+## 📊 Explore the Analysis
+
+::: {.callout-note icon=true}
+## 🎨 Interactive Analysis
+
+[**View Full Analysis →**](stackoverflow_survey_analysis_plotly.ipynb)
+
+Explore the complete analysis with interactive Plotly visualizations:
+
+- 🖱️ **Hover** over charts to see detailed data points
+- 🔍 **Zoom and pan** to explore specific areas
+- 💾 **Download** charts as PNG images
+- 📱 **Responsive** design works on all devices
+:::
+
+## 🔍 What's Inside
+
+The analysis notebook contains comprehensive research across multiple dimensions:
+
+### 1. Market Size Analysis
+- JavaScript/TypeScript vs Python vs Java developer populations
+- Node.js framework adoption rates
+- Redis usage patterns across different developer groups
+
+### 2. Database Preferences
+- Current database usage patterns
+- Future database adoption intentions
+- Redis positioning in the ecosystem
+
+### 3. Node.js + Redis Developer Profiles
+- Technology stack analysis
+- Programming languages used
+- Web frameworks and tools
+- Developer roles and personas
+
+### 4. AI/ML Usage Patterns
+- AI tool adoption rates across developer groups
+- Learning methods and resources
+- **AI usage intent and sentiment comparison** (NEW!)
+- Future AI adoption plans
+
+## 💡 Methodology
+
+**Data Source:** [Stack Overflow 2025 Developer Survey](https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2025.zip)
+**Sample Size:** 49,191 responses
+**Analysis Date:** February 2026
+**Tools Used:** Python, Pandas, Plotly
+
+::: {.callout-note}
+## 📥 Dataset Not Included
+
+The survey dataset (~135MB) is not included in this repository. To run the analysis locally:
+
+1. Download the dataset: [Stack Overflow 2025 Survey Data](https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2025.zip)
+2. Extract to `survey-data/` directory in the project root
+3. Run the analysis notebook
+
+The dataset includes:
+- `survey_results_public.csv` (134MB)
+- `survey_results_schema.csv` (30KB)
+- `2025_Developer_Survey_Tool.pdf` (1MB)
+:::
+
+### Developer Group Definitions
+
+- **Node.js Developers:** Use Node.js web framework
+- **TypeScript Developers:** Work with TypeScript language
+- **JavaScript Developers:** Work with JavaScript language
+- **Python Developers:** Work with Python language
+- **Java Developers:** Work with Java (excluding JavaScript)
+
+## 🚀 Recommendation
+
+::: {.callout-important}
+## Strong Recommendation: Build RedisVL for TypeScript/JavaScript
+
+The data shows:
+
+1. **Large addressable market:** 21K+ JS/TS developers vs 18K Python developers
+2. **High AI adoption:** Node.js/TypeScript developers lead in daily AI usage (54%+)
+3. **Strong engagement:** Redis is already popular (#6) among Node.js developers
+4. **Favorable sentiment:** 60%+ of JS/TS developers view AI tools favorably
+5. **Growing demand:** Developers are actively learning AI for career advancement
+
+The TypeScript/JavaScript ecosystem is primed for AI-powered vector database tools.
+:::
+
+## 📚 About RedisVL
+
+[RedisVL](https://github.com/redis/redis-vl-python) is a Python client library for Redis as a Vector Database. It provides:
+
+- Vector similarity search
+- Semantic caching
+- RAG (Retrieval Augmented Generation) support
+- Integration with popular AI/ML frameworks
+
+Currently available for:
+- ✅ Python
+- ✅ Java
+- ❓ **TypeScript/JavaScript** (This analysis explores the opportunity)
+
+## 🔗 Resources
+
+- [Stack Overflow Developer Survey 2025](https://survey.stackoverflow.co/2025/)
+- [RedisVL Python Library](https://github.com/redis/redis-vl-python)
+- [Redis Vector Database Documentation](https://redis.io/docs/stack/search/reference/vectors/)
+
+---
+
+*Built with [Quarto](https://quarto.org/) • Data from [Stack Overflow](https://stackoverflow.com/)*
+
