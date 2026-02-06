@@ -1,5 +1,33 @@
 /* Custom styles for the documentation site */
 
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+/* CSS Variables for Chart Color Palette (used in Plotly charts) */
+:root {
+  --chart-primary: #FF4438;
+  --chart-secondary: #C796E4;
+  --chart-accent: #DCFF1C;
+  --chart-info: #7FDBFE;
+  --chart-success: #4CAF50;
+  --chart-warning: #FFC107;
+}
+
+/* Global Font Settings */
+body {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Code Font Settings */
+code, pre, .code, kbd, samp {
+  font-family: 'Space Mono', 'Courier New', monospace !important;
+}
+
+/* Navbar - use dark header color */
+.navbar {
+  background-color: #2c3e50 !important;
+}
+
 /* Improve callout boxes */
 .callout {
   border-left-width: 5px;
@@ -13,6 +41,14 @@
 
 .callout-important {
   border-left-color: #dc3545;
+}
+
+.callout-note {
+  border-left-color: #17a2b8;
+}
+
+.callout-warning {
+  border-left-color: #ffc107;
 }
 
 /* Better table styling */
